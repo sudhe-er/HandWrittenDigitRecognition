@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("model.json")
+    model = await tf.loadLayersModel("https://sudhe-er.github.io/HandWrittenDigitRecognition/model.json")
     console.log("model loaded..");
 })();
 
